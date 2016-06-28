@@ -1,3 +1,4 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
@@ -11,15 +12,15 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&amp;subset=latin,latin-ext">
         
         <!-- load bootstrap css library -->
-        <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap-responsive.min.css" />        
+        <link rel="stylesheet" type="text/css" media="all" href="<c:url value="/resources/css/bootstrap.min.css" />" />
+        <link rel="stylesheet" type="text/css" media="all" href="<c:url value="/resources/css/bootstrap-responsive.min.css" />" />        
         
         <!-- load prettyphoto css library -->
-        <link rel="stylesheet" type="text/css" media="all" href="js/prettyPhoto/css/prettyPhoto.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="<c:url value="/resources/js/prettyPhoto/css/prettyPhoto.css" />" />
                 
         <!-- load template specific css styles -->           
-		<link rel="stylesheet" type="text/css" media="all" href="style.css" /> 
-		<link rel="stylesheet" type="text/css" media="all" href="css/skins/orange_skin.css" />              
+		<link rel="stylesheet" type="text/css" media="all" href="<c:url value="/resources/style.css"/>" /> 
+		<link rel="stylesheet" type="text/css" media="all" href="<c:url value="/resources/css/skins/orange_skin.css" />" />              
 	
         <!--[if lte IE 8]>
     	<link rel="stylesheet" type="text/css" media="all" href="css/ie.css" />
@@ -91,16 +92,16 @@
                         <div class="ls-info">
                             <h2><a href="http://www.thesaucecreative.com/robreynolds/aboutme.html">AN ORIGINAL ARTIST</a></h2>
                         </div>                    
-                        <img src="images/lslide_img1.jpg" alt="" />                              
+                        <img src="<c:url value="/resources/images/lslide_img1.jpg"/>" alt="" />                              
                     </li>
                     <li>
                         <div class="ls-info">
                             <h2><a href="http://www.thesaucecreative.com/robreynolds/currentprojects.html">VISSCHER REDRAWN<br>GOES ON DISPLAY<br>AT THE GUILDHALL</a></h2>
                         </div>                    
-                        <img src="images/lslide_img-closeup.jpg" alt="" />                              
+                        <img src="<c:url value="/resources/images/lslide_img-closeup.jpg"/>" alt="" />                              
                     </li>
                     <li>
-                        <img src="images/lslide_img3.jpg" alt="" />    
+                        <img src="<c:url value="/resources/images/lslide_img3.jpg"/>" alt="" />    
                         <div class="ls-info">
                             <h3><a href="http://www.thesaucecreative.com/robreynolds/gallery.html">EARLIER WORK</a></h3>
                         </div>                                
@@ -117,16 +118,16 @@
             
         <div class="row-fluid">
         
-          <div class="span3 service-box"> <a href="gallery.html#works"><img src="images/1-fruit.jpg" alt="" class="sb-img" /></a>
+          <div class="span3 service-box"> <a href="gallery.html#works"><img src="<c:url value="/resources/images/1-fruit.jpg"/>" alt="" class="sb-img" /></a>
           <h3><a href="#">Harvest War <br>
           and other works</a></h3>
           </div>    
             
-            <div class="span6 service-box"> <a href="gallery.html"> <img src="images/matchingpair.jpg" alt=""/></a>
+            <div class="span6 service-box"> <a href="gallery.html"> <img src="<c:url value="/resources/images/matchingpair.jpg"/>" alt=""/></a>
               <h3><a href="#">Buy both Visscher then and Visscher now<br>
       Matching pairs from £98</a>          </h3>
           </div>
-            <div class="span3 service-box"> <a href="http://visscherredrawn.london/"><img src="images/sh-challenge.jpg" alt="" class="sb-img" /></a>
+            <div class="span3 service-box"> <a href="http://visscherredrawn.london/"><img src="<c:url value="/resources/images/sh-challenge.jpg"/>" alt="" class="sb-img" /></a>
             <h3><a href="#">Play the<br>
             Shakespeare 
             </a><a href="#">Game</a> </h3>
@@ -190,13 +191,13 @@
               <strong>E</strong> <a href="mailto:robin211952@gmail.com">robin211952@gmail.com</a>
               <!-- social media icons -->              </p>
                 <ul class="social-media">
-              <li><a href="#"><img src="images/social/twitter.png" alt="twitter" /></a></li>
-                    <li><a href="#"><img src="images/social/facebook.png" alt="facebook" /></a></li>
-                    <li><a href="#"><img src="images/social/linkedin.png" alt="linkedin" /></a></li>            
-                    <li><a href="#"><img src="images/social/google.png" alt="google" /></a></li>  
-                    <li><a href="#"><img src="images/social/deviantart.png" alt="deviantart" /></a></li> 
-                    <li><a href="#"><img src="images/social/dribbble.png" alt="dribbble" /></a></li>
-                    <li><a href="#"><img src="images/social/rss.png" alt="rss" /></a></li>                               
+              <li><a href="#"><img src="<c:url value="/resources/images/social/twitter.png"/>" alt="twitter" /></a></li>
+                    <li><a href="#"><img src="<c:url value="/resources/images/social/facebook.png"/>" alt="facebook" /></a></li>
+                    <li><a href="#"><img src="<c:url value="/resources/images/social/linkedin.png"/>" alt="linkedin" /></a></li>            
+                    <li><a href="#"><img src="<c:url value="/resources/images/social/google.png"/>" alt="google" /></a></li>  
+                    <li><a href="#"><img src="<c:url value="/resources/images/social/deviantart.png"/>" alt="deviantart" /></a></li> 
+                    <li><a href="#"><img src="<c:url value="/resources/images/social/dribbble.png"/>" alt="dribbble" /></a></li>
+                    <li><a href="#"><img src="<c:url value="/resources/images/social/rss.png"/>" alt="rss" /></a></li>                               
                 </ul>                
 
             </div>
@@ -229,22 +230,22 @@
 
 
     <!-- load jquery library -->
-    <script type="text/javascript" src="js/jquery-191.min.js"></script>
+    <script type="text/javascript" src="<c:url value="/resources/js/jquery-191.min.js"/>"></script>
       
     <!-- load bootstrap library -->        
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<c:url value="/resources/js/bootstrap.min.js"/>"></script>
     
     <!-- load flexslider -->         
-    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="<c:url value="/resources/js/jquery.flexslider-min.js"/>"></script>
         
     <!-- load modernizer -->         
-    <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
+    <script type="text/javascript" src="<c:url value="/resources/js/modernizr.custom.63321.js"/>"></script>
             
     <!-- load prettyphoto -->         
-    <script type="text/javascript" src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="<c:url value="/resources/js/prettyPhoto/js/jquery.prettyPhoto.js"/>"></script>
         
     <!-- load custom scripts -->         
-    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="<c:url value="/resources/js/custom.js"/>"></script>
     
     <script type="text/javascript">    
 	
