@@ -228,7 +228,8 @@ pre, code {
 	left:0;
 }
 #logo a {
-	display:block;	
+	display:block;
+	height: 100%;
 }
 .logo-container {
 	height:88px;	

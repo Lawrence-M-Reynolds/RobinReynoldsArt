@@ -4,7 +4,6 @@
 		<div class="row-fluid">
 			<div class="span4 logo-container">
 				<div id="logo">
-					<!-- TODO: This link isn't displaying correctly -->
 					<a href="<c:url value="/"/>">Robin Reynolds</a>
 				</div>
 			</div>
