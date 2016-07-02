@@ -1,4 +1,3 @@
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!doctype html>
 <html>
 <!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
@@ -10,27 +9,13 @@
 	content="Robin Reynolds, artist, pen and ink, Ruscombe, Berkshire">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<%@include file="includes/headerInclude.jsp" %>
+
 <!-- load oswald and pt sans fonts from google fonts -->
 <link rel="stylesheet" type="text/css"
 	href="http://fonts.googleapis.com/css?family=Oswald:400&amp;subset=latin,latin-ext">
 <link rel="stylesheet" type="text/css"
 	href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&amp;subset=latin,latin-ext">
-
-<!-- load bootstrap css library -->
-<link rel="stylesheet" type="text/css" media="all"
-	href="<c:url value="/resources/css/bootstrap.min.css" />" />
-<link rel="stylesheet" type="text/css" media="all"
-	href="<c:url value="/resources/css/bootstrap-responsive.min.css" />" />
-
-<!-- load prettyphoto css library -->
-<link rel="stylesheet" type="text/css" media="all"
-	href="<c:url value="/resources/js/prettyPhoto/css/prettyPhoto.css" />" />
-
-<!-- load template specific css styles -->
-<link rel="stylesheet" type="text/css" media="all"
-	href="<c:url value="/resources/style.css"/>" />
-<link rel="stylesheet" type="text/css" media="all"
-	href="<c:url value="/resources/css/skins/orange_skin.css" />" />
 
 <!--[if lte IE 8]>
     	<link rel="stylesheet" type="text/css" media="all" href="css/ie.css" />
@@ -151,7 +136,7 @@
 			<div class="row-fluid">
 
 				<div class="span3 service-box">
-					<a href="gallery.html#works"><img
+					<a href="<c:url value="/gallery#works"/>"><img
 						src="<c:url value="/resources/images/1-fruit.jpg"/>" alt=""
 						class="sb-img" /></a>
 					<h3>
@@ -161,7 +146,7 @@
 				</div>
 
 				<div class="span6 service-box">
-					<a href="gallery.html"> <img
+					<a href="<c:url value="/gallery"/>"> <img
 						src="<c:url value="/resources/images/matchingpair.jpg"/>" alt="" /></a>
 					<h3>
 						<a href="#">Buy both Visscher then and Visscher now<br>
@@ -174,8 +159,7 @@
 						src="<c:url value="/resources/images/sh-challenge.jpg"/>" alt=""
 						class="sb-img" /></a>
 					<h3>
-						<a href="#">Play the<br> Shakespeare
-						</a><a href="#">Game</a>
+						<a href="#">Play the<br> Shakespeare Game</a>
 					</h3>
 				</div>
 			</div>
@@ -308,50 +292,8 @@
 		</div>
 	</div>
 
-
-	<!-- load jquery library -->
-	<script type="text/javascript"
-		src="<c:url value="/resources/js/jquery-191.min.js"/>"></script>
-
-	<!-- load bootstrap library -->
-	<script type="text/javascript"
-		src="<c:url value="/resources/js/bootstrap.min.js"/>"></script>
-
-	<!-- load flexslider -->
-	<script type="text/javascript"
-		src="<c:url value="/resources/js/jquery.flexslider-min.js"/>"></script>
-
-	<!-- load modernizer -->
-	<script type="text/javascript"
-		src="<c:url value="/resources/js/modernizr.custom.63321.js"/>"></script>
-
-	<!-- load prettyphoto -->
-	<script type="text/javascript"
-		src="<c:url value="/resources/js/prettyPhoto/js/jquery.prettyPhoto.js"/>"></script>
-
-	<!-- load custom scripts -->
-	<script type="text/javascript"
-		src="<c:url value="/resources/js/custom.js"/>"></script>
-
-	<script type="text/javascript">
-		jQuery(window).load(function() {
-
-			jQuery('.large-swrapper .flexslider').flexslider({
-				animation : "fade",
-				controlNav : true,
-				directionNav : false,
-				prevText : "&laquo;", //String: Set the text for the "previous" directionNav item
-				nextText : "&raquo;", //String: Set the text for the "next" directionNav item		
-				slideshowSpeed : 3800, //Integer: Set the speed of the slideshow cycling, in milliseconds
-				animationSpeed : 900, //Integer: Set the speed of animations, in milliseconds		
-				easing : "easeOutQuad", //{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!		
-				start : function(slider) {
-					slider.removeClass('lflex-loading');
-				}
-			});
-
-		}); //end of window load
-	</script>
+	<%@include file="includes/footerInclude.jsp" %>
+	
 </body>
 <!-- InstanceEnd -->
 </html>

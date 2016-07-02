@@ -10,26 +10,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- load oswald and pt sans fonts from google fonts -->
+
 <link rel="stylesheet" type="text/css"
 	href="http://fonts.googleapis.com/css?family=Oswald:400&amp;subset=latin,latin-ext">
 <link rel="stylesheet" type="text/css"
 	href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&amp;subset=latin,latin-ext">
 
-<!-- load bootstrap css library -->
-<link rel="stylesheet" type="text/css" media="all"
-	href="css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" media="all"
-	href="css/bootstrap-responsive.min.css" />
-
-<!-- load prettyphoto css library -->
-<link rel="stylesheet" type="text/css" media="all"
-	href="js/prettyPhoto/css/prettyPhoto.css" />
-
-<!-- load template specific css styles -->
-<link rel="stylesheet" type="text/css" media="all" href="style.css" />
-<link rel="stylesheet" type="text/css" media="all"
-	href="css/skins/orange_skin.css" />
-
+<%@include file="includes/headerInclude.jsp" %>
+ 
 <!--[if lte IE 8]>
     	<link rel="stylesheet" type="text/css" media="all" href="css/ie.css" />
         <![endif]-->
@@ -212,45 +200,7 @@
 		</div>
 	</div>
 
-
-	<!-- load jquery library -->
-	<script type="text/javascript" src="js/jquery-191.min.js"></script>
-
-	<!-- load bootstrap library -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-	<!-- load flexslider -->
-	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-
-	<!-- load modernizer -->
-	<script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
-
-	<!-- load prettyphoto -->
-	<script type="text/javascript"
-		src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
-
-	<!-- load custom scripts -->
-	<script type="text/javascript" src="js/custom.js"></script>
-
-	<script type="text/javascript">
-		jQuery(window).load(function() {
-
-			jQuery('.large-swrapper .flexslider').flexslider({
-				animation : "fade",
-				controlNav : true,
-				directionNav : false,
-				prevText : "&laquo;", //String: Set the text for the "previous" directionNav item
-				nextText : "&raquo;", //String: Set the text for the "next" directionNav item		
-				slideshowSpeed : 3800, //Integer: Set the speed of the slideshow cycling, in milliseconds
-				animationSpeed : 900, //Integer: Set the speed of animations, in milliseconds		
-				easing : "easeOutQuad", //{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!		
-				start : function(slider) {
-					slider.removeClass('lflex-loading');
-				}
-			});
-
-		}); //end of window load
-	</script>
+	<%@include file="includes/footerInclude.jsp" %>
 </body>
 <!-- InstanceEnd -->
 </html>
