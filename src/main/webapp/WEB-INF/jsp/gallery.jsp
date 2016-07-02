@@ -30,27 +30,7 @@
 
 <body>
 
-	<div class="header-wrapper">
-		<div class="container">
-			<div class="row-fluid">
-				<div class="span4 logo-container">
-					<div id="logo">
-						<a href="index.html">Robin Reynolds</a>
-					</div>
-				</div>
-				<%@include file="includes/menuInclude.jsp" %>
-
-				</div>
-				<!-- end of .span8 -->
-
-			</div>
-
-
-		</div>
-		<!-- end of .container -->
-
-	</div>
-	<!-- end of .header-wrapper -->
+	<%@include file="includes/titleBarInclude.jsp" %>
 
 	<div class="hdec-wrapper"></div>
 
