@@ -62,7 +62,7 @@
 							<input type="hidden" name="cmd" value="_cart"><input
 								type="hidden" name="display" value="1">
 							<!-- Display the View Cart button. -->
-							<input type="image" name="submit" src="/images/but-viewcart.gif"
+							<input type="image" name="submit" src="<c:url value="/resources/images/but-viewcart.gif"/>"
 								alt="PayPal - The safer, easier way to pay online"><img
 								alt="" width="1" height="1"
 								src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
@@ -72,7 +72,7 @@
 					<h3>
 						<a href="images/lbox_large-london.jpg"
 							title="London/Visscher Redrawn" data-gal="prettyPhoto"
-							class="nivoZoom"> <img src="images/shop-landscape.jpg" alt="" /></a>
+							class="nivoZoom"> <img src="<c:url value="/resources/images/shop-landscape.jpg"/>" alt="" /></a>
 					</h3>
 					<h3>
 						<a name="0" id="122"></a>Visscher Redrawn (2016)
@@ -168,7 +168,7 @@ Standard print (booklet online)<br>(161cm x 45cm including border)
 						<tbody>
 							<tr>
 								<td width="159" bgcolor="#232323"><img
-									src="images/Limited-Edition-BookletV7-1.jpg" alt="" /></td>
+									src="<c:url value="/resources/images/Limited-Edition-BookletV7-1.jpg"/>" alt="" /></td>
 								<td width="755" bgcolor="#232323"><p>
 										<strong>Visscher Redrawn, by Robin Reynolds</strong><br>
 										Limited edition prints are accompanied by a 20-page booklet in
@@ -185,7 +185,7 @@ Standard print (booklet online)<br>(161cm x 45cm including border)
 						<a href="images/Visscher without text web-large.jpg"
 							title="London/Visscher Redrawn" data-gal="prettyPhoto"
 							class="nivoZoom"> <img
-							src="images/Visscher-without-text-web-pic.jpg" alt="" /></a>
+							src="<c:url value="/resources/images/Visscher-without-text-web-pic.jpg"/>" alt="" /></a>
 					</p>
 					<h3>
 						<a name="0" id="122"></a>Visscher Classic (1616)
@@ -272,7 +272,7 @@ Standard size giclée prints (161cm x 45cm)
 						<a href="images/Visscher-with-text-web-large.jpg"
 							title="London/Visscher Redrawn" data-gal="prettyPhoto"
 							class="nivoZoom"> <img
-							src="images/Visscher-with-text-web-pic.jpg" alt="" /></a>
+							src="<c:url value="/resources/images/Visscher-with-text-web-pic.jpg"/>" alt="" /></a>
 					</p>
 					<h3>
 						<a name="0" id="122"></a>Visscher Classic with latin text(1616)
@@ -361,12 +361,12 @@ Standard size giclée prints with text (161cm x 55cm)
 						<a href="images/Visscher without text web-large.jpg"
 							title="London/Visscher Redrawn" data-gal="prettyPhoto"
 							class="nivoZoom"> <img
-							src="images/Visscher-without-text-web-pic.jpg" alt="" /></a>
+							src="<c:url value="/resources/images/Visscher-without-text-web-pic.jpg"/>" alt="" /></a>
 					</p>
 					<p>
 						<a href="images/lbox_large-london.jpg"
 							title="London/Visscher Redrawn" data-gal="prettyPhoto"
-							class="nivoZoom"><img src="images/shop-landscape.jpg" alt="" /></a>
+							class="nivoZoom"><img src="<c:url value="/resources/images/shop-landscape.jpg"/>" alt="" /></a>
 					</p>
 					<h3>
 						<a name="0" id="122"></a>Matching pairs
@@ -457,7 +457,7 @@ Standard size (161cm x 45cm)
 						<tbody>
 							<tr>
 								<td width="159" bgcolor="#232323"><img
-									src="images/Limited-Edition-BookletV7-1.jpg" alt="" /></td>
+									src="<c:url value="/resources/images/Limited-Edition-BookletV7-1.jpg"/>" alt="" /></td>
 								<td width="755" bgcolor="#232323"><p>
 										<strong>Visscher Redrawn, by Robin Reynolds</strong><br>
 										Limited edition prints are accompanied by a 20-page booklet in
@@ -480,7 +480,7 @@ Standard size (161cm x 45cm)
 					<p class="alignleft">
 						<a href="images/lbox_large1.jpg" title="Townscape"
 							data-gal="prettyPhoto" class="nivoZoom"> <img
-							src="images/Townscape-for-web-400px.jpg" alt="" /></a>
+							src="<c:url value="/resources/images/Townscape-for-web-400px.jpg"/>" alt="" /></a>
 					</p>
 					<h3>
 						<a name="1" id="122"></a>Townscape (1979)
@@ -528,7 +528,7 @@ Standard size (161cm x 45cm)
 					<p class="alignleft">
 						<a href="images/lbox_large2.jpg" title="Unsavoury Street"
 							data-gal="prettyPhoto" class="nivoZoom"> <img
-							src="images/Unsavoury-Street-for-web-400.jpg" alt="" /></a>
+							src="<c:url value="/resources/images/Unsavoury-Street-for-web-400.jpg"/>" alt="" /></a>
 					</p>
 
 
@@ -589,7 +589,7 @@ Standard size (161cm x 45cm)
 							data-gal="prettyPhoto" class="nivoZoom"><a
 							href="images/lbox_large3.jpg" title="Music box by San Miguel"
 							data-gal="prettyPhoto" class="nivoZoom"><img
-								src="images/Crooked-House-for-web-400.jpg" alt="" /></a>
+								src="<c:url value="/resources/images/Crooked-House-for-web-400.jpg"/>" alt="" /></a>
 					</p>
 
 
@@ -650,7 +650,7 @@ Standard size (161cm x 45cm)
 					<p class="alignleft">
 						<a href="images/lbox_brokenroad.jpg" title="Broken Road"
 							data-gal="prettyPhoto" class="nivoZoom"><img
-							src="images/Broken-Road-for-web-400.jpg" width="400" height="559"
+							src="<c:url value="/resources/images/Broken-Road-for-web-400.jpg"/>" width="400" height="559"
 							align="left" class="nivoZoom">
 					</p>
 
@@ -713,7 +713,7 @@ Standard size (161cm x 45cm)
 					<p class="alignleft">
 						<a href="images/lbox_large5.jpg" title="Toppling Tower"
 							data-gal="prettyPhoto" class="nivoZoom"> <img
-							src="images/Toppling-Tower-for-web-400.jpg" alt="" /></a>
+							src="<c:url value="/resources/images/Toppling-Tower-for-web-400.jpg"/>" alt="" /></a>
 					</p>
 
 
@@ -774,7 +774,7 @@ Standard size (161cm x 45cm)
 					<p class="alignleft">
 						<a href="images/lbox_large6.jpg" title="Escape from Earths Jaws"
 							data-gal="prettyPhoto" class="nivoZoom"> <img
-							src="images/Quake-for-web-400.jpg" alt="" /></a>
+							src="<c:url value="/resources/images/Quake-for-web-400.jpg"/>" alt="" /></a>
 					</p>
 
 
@@ -839,7 +839,7 @@ Standard size (161cm x 45cm)
 					<p class="alignleft">
 						<a href="images/Harvest-War-for-web.jpg" title="Harvest War"
 							data-gal="prettyPhoto" class="nivoZoom"> <img
-							src="images/Harvest-War-for-web-400.jpg" alt="" /></a>
+							src="<c:url value="/resources/images/Harvest-War-for-web-400.jpg"/>" alt="" /></a>
 					</p>
 
 
@@ -902,7 +902,7 @@ Standard size (161cm x 45cm)
 					<p class="alignleft">
 						<a href="images/lbox_large-ship.jpg"
 							title="Noah’s Bird Ship Before It Sank" data-gal="prettyPhoto"
-							class="nivoZoom"> <img src="images/Ship-400.jpg" alt="" /></a>
+							class="nivoZoom"> <img src="<c:url value="/resources/images/Ship-400.jpg"/>" alt="" /></a>
 					</p>
 
 
@@ -957,7 +957,7 @@ Standard size (161cm x 45cm)
 						<a href="images/lbox_large-riot.jpg"
 							title="Hand-to-hand battle for nature's bounty"
 							data-gal="prettyPhoto" class="nivoZoom"> <img
-							src="images/Riot-for-web-400.jpg" alt="" /></a>
+							src="<c:url value="/resources/images/Riot-for-web-400.jpg"/>" alt="" /></a>
 					</p>
 
 
@@ -1011,7 +1011,7 @@ Standard size (161cm x 45cm)
 					<p class="alignleft">
 						<a href="images/lbox_large-haggle.jpg" title="Haggle"
 							data-gal="prettyPhoto" class="nivoZoom"> <img
-							src="images/Haggle-400.jpg" alt="" /></a>
+							src="<c:url value="/resources/images/Haggle-400.jpg"/>" alt="" /></a>
 					</p>
 
 

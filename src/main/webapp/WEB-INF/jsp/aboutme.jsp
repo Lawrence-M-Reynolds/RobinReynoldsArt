@@ -44,7 +44,7 @@
 			<div class="span8">
 				<h2>About me</h2>
 				<p>
-					<img src="images/rob.png" width="160" height="212" align="left"
+					<img src="<c:url value="/resources/images/rob.png"/>" width="160" height="212" align="left"
 						margin="10px" padding="5px">Born Zimbabwe 1952; artist
 					working in pen-and-ink and watercolour.
 				</p>

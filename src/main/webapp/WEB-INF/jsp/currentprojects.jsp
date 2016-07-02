@@ -45,7 +45,7 @@
 
 			<h2>London redrawn</h2>
 			<p>
-				<img src="images/Visscher-redrawn-rr.jpg" width="961" height="200">
+				<img src="<c:url value="/resources/images/Visscher-redrawn-rr.jpg"/>" width="961" height="200">
 			</p>
 			<p>&nbsp;</p>
 			<table width="941" border="0">
@@ -76,7 +76,7 @@
 							</p></td>
 						<td width="297" bgcolor="#FFFFFF"><a
 							href="http://visscherredrawn.london/" target="_blank"><img
-								src="images/challenge.jpg" alt="" /></a></td>
+								src="<c:url value="/resources/images/challenge.jpg"/>" alt="" /></a></td>
 					</tr>
 					<tr>
 						<td>&nbsp;</td>
@@ -91,14 +91,14 @@
 				<strong>London Panorama Prints are now available.</strong>
 			</p>
 			<p>
-				To get your prints<a href="gallery.html"> go to our gallery here</a>
+				To get your prints<a href="<c:url value="/gallery"/>"> go to our gallery here</a>
 			</p>
 			<p> </p>
 			<p>
 				<strong>See also</strong>
 			</p>
 			<p>
-				<a href="downloads/400-Years-Brochure-email.pdf" target="_blank">Link
+				<a href="<c:url value="/resources/downloads/400-Years-Brochure-email.pdf"/>" target="_blank">Link
 					to brochure about the project</a>
 			</p>
 			<p>
@@ -108,7 +108,7 @@
 			</p>
 			<p>&nbsp;</p>
 			<p>
-				<img src="images/Visscher-panorama.jpg" width="961" height="200">
+				<img src="<c:url value="/resources/images/Visscher-panorama.jpg"/>" width="961" height="200">
 			</p>
 			<p>
 				<br>
