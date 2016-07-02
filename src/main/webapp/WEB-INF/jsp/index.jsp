@@ -46,13 +46,13 @@
                     <!-- menu that is displayed only on tablets and bigger screen resolutions
                     then is transformed into a dropdown menu for mobile devices -->
                     <ul id="rmenu-id" class="sf-menu">
-                        <li><a href="index.html">home</a></li>
+                        <li><a href="<c:url value="/"/>">home</a></li>
                         
-                        <li><a href="aboutme.html">about me</a></li>                          
+                        <li><a href="<c:url value="/aboutMe"/>">about me</a></li>                          
                         
-                        <li><a href="gallery.html">buy prints</a></li> 
+                        <li><a href="<c:url value="/gallery"/>">buy prints</a></li> 
                         
-                        <li><a href="currentprojects.html">london redrawn</a></li>           
+                        <li><a href="<c:url value="/currentProjects"/>">london redrawn</a></li>           
                     </ul>
                 </div><!-- end of #menu-wrapper -->
                        	
