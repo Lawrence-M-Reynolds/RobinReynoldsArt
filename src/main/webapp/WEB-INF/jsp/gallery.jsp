@@ -38,22 +38,7 @@
 						<a href="index.html">Robin Reynolds</a>
 					</div>
 				</div>
-				<div class="span8">
-
-					<div id="menu-wrapper">
-						<!-- menu that is displayed only on tablets and bigger screen resolutions
-                    then is transformed into a dropdown menu for mobile devices -->
-						<ul id="rmenu-id" class="sf-menu">
-							<li><a href="index.html">home</a></li>
-
-							<li><a href="aboutme.html">about me</a></li>
-
-							<li><a href="gallery.html">buy prints</a></li>
-
-							<li><a href="currentprojects.html">london redrawn</a></li>
-						</ul>
-					</div>
-					<!-- end of #menu-wrapper -->
+				<%@include file="includes/menuInclude.jsp" %>
 
 				</div>
 				<!-- end of .span8 -->
